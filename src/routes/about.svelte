@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>COS About Page</title>
+</svelte:head>
+
 <script>
     import NavigationBar from "../components/NavigationBar.svelte";
 </script>
