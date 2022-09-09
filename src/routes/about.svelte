@@ -22,49 +22,7 @@
 </main>
 
 <style>
-main {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-}
 
-main:after, main:before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 400%;
-  height: 400%;
-  content: "";
-  z-index: -1;
-}
-
-main:after {
-  background: radial-gradient(circle, red, transparent);
-  animation: colorSpin 30s linear infinite;
-}
-
-main:before {
-  background-color: yellow;
-}
-
-@keyframes colorSpin {
-  25% {
-    transform: translateY(-75%);
-  }
-  50% {
-    transform: translate(-75%, -75%);
-  }
-  75% {
-    transform: translate(-75%, 0);
-  }
-  100% {
-    filter: hue-rotate(360deg);
-  }
-  /*75 is obtained as 100[1- (100/(height or width written in main:after)). i.e. 75 = 100[1-100/400] */
-}    
     /* Roboto Font*/
     *{
         font-family: 'Roboto', sans-serif;
