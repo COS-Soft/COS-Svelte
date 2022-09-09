@@ -16,7 +16,7 @@
         <h1>About COS Software</h1>
         <p>"COS" actually means Computers and Operating Systems. </p>
         <p>I do a lot of projects about computers. And every now and then I upload a video about a project I made.</p>
-        <p>This channel was created in March 13, 2020 and since then this channel changed a lot.</p>
+        <p>This channel was created in March 13, 2020.</p>
         <p>Here is a link to my YouTube channel: <a href="https://www.youtube.com/channel/UCWcOyUE0eTUACW-QhhQ76SA">https://www.youtube.com/channel/UCWcOyUE0eTUACW-QhhQ76SA</a></p>
     </div>
 </main>
