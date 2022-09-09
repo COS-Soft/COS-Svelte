@@ -16,6 +16,7 @@
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/videos">Videos</a></li>
+                <li><a href="/hardtofindsoftware">Hard To Find Software</a></li>
                 <li><a href="/about">About</a></li>
             </ul>
         </nav>
