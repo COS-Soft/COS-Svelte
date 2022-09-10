@@ -54,6 +54,7 @@
 	    animation: gradient 10s ease infinite;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        background-clip: text;
     }
     nav ul{
         display: flex;
@@ -76,9 +77,10 @@
         /* make the text color gradient on hover */
         background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	    background-size: 400% 400%;
-	    animation: gradient 10s ease infinite;
+	    animation: gradient 2s ease infinite;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        background-clip: text;
 
     }
     @keyframes gradient {

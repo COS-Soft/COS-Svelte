@@ -62,7 +62,7 @@
 
     .thumbnail{
         margin: 10px;
-        border: 7px solid rgba(56, 56, 56, 0.651);
+        border: 3px solid rgba(56, 56, 56, 0.651);
         border-radius: 10px;
     }
     .thumbnail-div{
