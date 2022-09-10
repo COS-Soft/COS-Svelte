@@ -68,9 +68,25 @@
         transition: all 0.3s ease-in-out;
     }
     nav ul li a:hover{
-        color: rgb(198, 135, 240);
-        background-color: rgb(56, 56, 56);
+        /* make the text color gradient on hover */
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	    background-size: 400% 400%;
+	    animation: gradient 10s ease infinite;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
     }
+    @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
     @media screen and (max-width: 600px){
         nav{
             flex-direction: column;
@@ -94,7 +110,6 @@
             font-size: 1rem;
         }
     }
-
 
    
 

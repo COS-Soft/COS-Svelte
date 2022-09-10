@@ -77,4 +77,5 @@
     .video-text{
         text-align: center;
     }
+    
 </style>
