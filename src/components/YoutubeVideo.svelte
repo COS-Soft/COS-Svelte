@@ -79,4 +79,10 @@
         cursor: pointer;
         margin: 10px;
     }
+    @media only screen and (max-width: 600px) {
+        iframe{
+            width: 100%;
+            height: 100%;
+        }
+    }
 </style>
