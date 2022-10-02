@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet">
     <NavigationBar pageName="Hard To Find Software" />
     <SoftwareDownload filePath="../files/htfs/microsoftSrcLeakCollection.torrent" fileName="microsoftSrcLeakCollection"/>
+    <SoftwareDownload filePath="../files/htfs/SAMSUNG_LEAK.torrent" fileName="Samsung Galaxy Source Code Leak"/>
 </main>
 
 <style>
