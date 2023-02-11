@@ -46,6 +46,7 @@
         justify-content: center;
         margin: 0 auto;
         max-width: 1200px;
+        
     }   
     .videos{
         display: flex;
@@ -63,18 +64,17 @@
         max-width: 1200px;
     }
     button{
-        background-color: rgb(218, 218, 218);
+        background-color: rgba(0, 0, 0, 0.274);
         margin: 5px;
         border: none;
         width: 200px;
         transition: all 0.3s ease-in-out;
         border-radius: 10px;
+        
     }
     button:hover{
-        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-        background-size: 400% 400%;
-	    animation: gradient 2s ease infinite;
-        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        cursor: pointer;
     }
     .video-text{
         text-align: center;
