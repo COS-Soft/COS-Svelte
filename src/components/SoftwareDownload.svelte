@@ -18,7 +18,7 @@
         font-family: 'Roboto', sans-serif;
      }
      button{
-        background-color: rgb(218, 218, 218);
+        background-color: rgba(0, 0, 0, 0.274);
         margin: 5px;
         border: none;
         width: 200px;
@@ -27,8 +27,8 @@
         font-size: 20px;
     }
     button:hover{
-        background-color: rgb(56, 56, 56);
-        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        cursor: pointer;
     }
     div{
         margin: 20px;

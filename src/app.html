@@ -12,32 +12,32 @@
 		<div>%sveltekit.body%</div>
 	</body>
 	<style>
-		body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 60s ease infinite;
-	height: 100vh;
-}
+		*{
+			color: aliceblue;
+		}
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-@media screen and (max-width: 600px){
-	/*body{
-
-		background:#5283ee;
-	}*/
-	body{
-		width: 100%;
-	}
+body{
+			background-color: darkslategray;
+			animation: breathe 180s linear infinite;
+			height: 100vh;
+		}
+		@keyframes breathe {
+ 			0% {
+ 				background-color: darkslategray;
+ 			}
+			 25% {
+				background-color: darkmagenta;
+			}
+			50% {
+				background-color: darkcyan;
+			}
+			75% {
+				background-color: darkgoldenrod;
+			}
+			100% {
+				background-color: darkslategray;
+			}
+				
 }
 	</style>
 </html>
