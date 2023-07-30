@@ -15,6 +15,8 @@
     <NavigationBar pageName="Videos"/>
 
     <div class="videos">
+        
+        <YoutubeVideo ytVidId="Drk3jVgATYA"/>
         <YoutubeVideo ytVidId="ESmnRvZdt5w"/>
         <YoutubeVideo ytVidId="ILJ4QVNVsIk"/>
         <YoutubeVideo ytVidId="EyPkj3OVbBA"/>

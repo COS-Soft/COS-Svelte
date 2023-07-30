@@ -22,7 +22,7 @@
     <div class="videos">
         <div class="recent-video">
             <h2 class="video-text">My most recent video</h2>
-            <YoutubeVideo ytVidId="ESmnRvZdt5w"/>
+            <YoutubeVideo ytVidId="Drk3jVgATYA"/>
         </div>
         <div class="most-viewed-video">
             <h2 class="video-text">My most viewed video</h2>

@@ -24,7 +24,7 @@
 <style>
 
     /* Roboto Font*/
-    *{
+    *{SED Tech o
         font-family: 'Roboto', sans-serif;
     }
     div{
